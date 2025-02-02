@@ -10,6 +10,7 @@
     <title>HTML</title>
 </head>
 <body>
+
     <header class="header">
         <div class="container">
             <a class="logo" href="#"><span class="web">Web</span>Studio</a>
@@ -24,8 +25,36 @@
                <a class="header-mail" href="mail:info@devstudio.com">info@devstudio.com</a>
                <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
             </div>
+     <!-- ==========================BURGER========================= -->
+
+
+
+    <div class="container-burger">
+        <nav class="menu-burger">
+        <ul class="list-header-burger"> 
+            <li class="item-header-burger"><a href="">Студия</a></li>
+            <li class="item-header-burger"><a href="">Портфолио</a></li>
+            <li class="item-header-burger"><a href="">Контакты</a></li>
+        </ul>
+        <div class="contacts-burger">
+            <a class="header-phone-burger" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-mail-burger" href="mail:info@devstudio.com">info@devstudio.com</a>
+         </div>
+         <ul class="social-burger">
+            <li class="burger-social"><a href="">Instagram</a></li>
+            <li class="burger-social"><a href="">Twitter</a></li>
+            <li class="burger-social"><a href="">Facebook</a></li>
+            <li class="burger-social"><a href="">LinkedIn</a></li>
+         </ul>
+    </nav>
+        </div>
+        <div class="burger">
+            <span></span>
+        </div>
         </div>
     </header>
+
+        <!-- ==========================BURGER========================= -->
 
 
     <!-- ================ HERO ================= -->
@@ -204,5 +233,15 @@
         </section>
     </div>
     </footer>
+
+<script>
+    document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('.menu-burger').classList.toggle('open')
+    }
+)
+</script>
+
+
 </body>
 </html>
