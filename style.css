@@ -642,18 +642,17 @@ button {
 }
 
 
-
 .container-burger{
     display: none;
-}
-
-.container-burger{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1220px;
     min-height: 70px;
     margin: auto;
+}
+
+.menu-burger{
+    display: none;
 }
 
 .menu-burger ul{
@@ -732,6 +731,10 @@ button {
 
 .menu-burger a{
     font-size: 30px;
+}
+
+.container-burger{
+    display: flex;
 }
 
 .contacts-burger{
