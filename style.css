@@ -98,7 +98,7 @@ button {
 
 .contacts a{
     text-decoration: none;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #757575;
 }
 
@@ -113,7 +113,7 @@ button {
     align-items: center;
     width: 16px;
     height: 12px;
-    background-image: url(./img/svg/envelope.svg);
+    background-image: url(./img/contacts.svg#icon-smartphone);
     margin-right: 10px;
     margin-bottom: 0px;
 }
@@ -271,7 +271,7 @@ button {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    min-height: 700px;
+    min-height: 680px;
     margin-top: 80px;
 
     background-color: #F5F4FA;
@@ -292,7 +292,7 @@ button {
     text-align: center;
     font-size: 36px;
 
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .item3 {
@@ -418,8 +418,9 @@ button {
 
 .icon{
     align-items: center;
-    width: 20px; 
-    height: 20px;
+    padding: 10px;
+    width: 40px; 
+    height: 40px;
     fill:#AFB1B8;
 }
 
@@ -691,6 +692,98 @@ button {
 
 
 
+
+/* ==============================================PORTFOLIO=================== */
+
+
+
+
+/* ==============================================PORTFOLIO=================== */
+
+.portfolio{
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-portfolio{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.portfolio-item{
+    display: flex;
+    justify-content: center;
+    width: 112px;
+    height: 38px;
+    border-radius: 4px;
+
+    background-color: #F5F4FA;
+    color: #2F303A;
+
+    box-shadow: 1px 3px 5px 0px #00000029;
+}
+
+.portfolio-item:hover{
+    background-color: #2196F3;
+    color: #fafafc;
+
+    transition: 0.2s ease;
+}
+
+.portfolio-button{
+}
+
+.portfolio-cart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    min-width: 1170px;
+    border: 1px;
+    gap: 30px;
+}
+
+.cart-portfolio{
+    display: block;
+    width: 370px;
+    height: 404px;
+    border: 1px;
+
+    box-shadow: 1px 4px 6px 0px #00000029;
+}
+
+.cart-text{
+    padding: 5px;
+    margin-left: 25px;
+}
+
+.name-cart{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.text2-portfolio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+
 /* =====================================================================================================MEDIA========================== */
 
 
@@ -700,6 +793,10 @@ button {
 
 .burger{
     display: flex;
+}
+
+.header{
+    box-shadow: 1px 3px 5px 0px #00000029;
 }
 
 .menu{
@@ -925,6 +1022,27 @@ button {
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.section-portfolio{
+    display: block;
+    width: 430px;
+}
+
+.portfolio-list{
+    display: grid;
+    margin-left: 35%;
+    justify-content: space-between;
+    width: 430px;
+}
+
+.portfolio-item{
+    margin-bottom: 10px;
+}
+
+.portfolio-cart{
+    display: grid;
+    min-width: 430px;
 }
 
 
