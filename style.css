@@ -1031,7 +1031,7 @@ button {
 
 .portfolio-list{
     display: grid;
-    margin-left: 35%;
+    padding-left: 37%;
     justify-content: space-between;
     width: 430px;
 }
